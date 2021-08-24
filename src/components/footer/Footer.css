@@ -1,0 +1,49 @@
+/* 1440 - 900 */
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #DCFE63;
+    height: 10rem;
+    border-top: 2px solid black; 
+    font-size: large;
+}
+
+.footer-list-item {
+    list-style: none;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.logoFooter {
+    width: 30%;
+}
+
+/* compus chicas */
+
+@media (max-width: 1110px) {
+
+    .footer-wrapper {    
+        height: 5rem;        
+        font-size: small;
+    }
+    .logoFooter img{
+        width: 700%;
+    }
+
+    .logoFooter {
+        width: 10%;
+    }
+    
+}
+
+/* mobile */
+
+@media (max-width: 767px) {
+
+    .logoFooter {
+        width: 8%;
+    } 
+
+}

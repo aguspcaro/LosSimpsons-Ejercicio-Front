@@ -1,0 +1,186 @@
+* {
+    margin: auto;
+}
+
+/* 1440 - 900 */
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: .1em;
+    border-bottom: 2px solid black;
+    background-color: #DCFE63;
+    height: 10rem;
+
+}
+
+.logoHeader {
+    width: 15%;
+}
+
+.logo-wrap{
+    width: 20%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.nav-search-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.nav-search-wrap input {
+    width: 100%;
+    height: 2rem;
+    padding-left: 2%;
+    letter-spacing: .1em;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+
+.nav-search-wrap input:focus {
+    outline: none;
+}
+
+.search-button {
+    border: none;
+    position: relative;
+    right:2.2rem;
+    top:2px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-list-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+
+}
+
+.nav-list-item {
+    color: black;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-link-item{
+    text-decoration: none;
+}
+
+.nav-link-item:focus{
+    color: black;
+}
+
+.nav-button-wrap{
+    width: 15%;
+}
+
+.nav-button {
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: .1em;
+    background-color: #CFEFF2;
+    border: none;
+    border-radius: 1em;
+    height: 2.5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+/*compu chica*/
+
+@media (max-width: 1100px){
+    
+    .nav-wrapper {    
+        font-size: medium;
+        height: 5rem;
+        width: 100%;
+    
+    }
+
+    .nav-search-wrap {
+        width: 30%;
+    }
+
+    .nav-search-wrap input{
+        padding-left: 5%;
+        height: 1.8rem;
+
+    }
+
+    .nav-search-wrap input::placeholder{
+        color: white;
+    }
+
+    .nav-list-wrap {
+        width: 30%;
+    
+    }
+
+    .nav-button-wrap{
+        width: 15%;
+    }
+
+    .nav-button {
+        font-size: small;
+    
+        height: 2rem;
+    
+    }
+
+}
+
+/*tablet chica*/
+
+@media (max-width: 1100px){
+    
+    .nav-list-wrap {
+        display: none;
+    
+    }
+
+    .nav-button-wrap{
+        width: 30%;
+    }
+
+    
+}
+
+/*mobile*/
+
+@media (max-width: 420px){
+
+    .nav-wrapper {    
+        font-size: small;
+    
+    }
+
+    .nav-search-wrap input{
+        padding-left: 8%;
+        height: 1.5rem;
+    }
+    
+    .nav-list-wrap {
+        
+        display: none;
+    
+    }
+
+    .nav-button-wrap{
+        width: 30%;
+    }
+  
+    .logo-wrap{
+        width: 10%;
+    }
+
+}
