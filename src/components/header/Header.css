@@ -1,5 +1,6 @@
 * {
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 /* 1440 - 900 */
@@ -15,6 +16,8 @@
     border-bottom: 2px solid black;
     background-color: #DCFE63;
     height: 10rem;
+
+
 
 }
 
@@ -72,6 +75,12 @@
     cursor: pointer;
 }
 
+.nav-link-item :hover{
+
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
 .nav-link-item{
     text-decoration: none;
 }
@@ -122,7 +131,7 @@
     }
 
     .nav-list-wrap {
-        width: 30%;
+        width: 50%;
     
     }
 
@@ -139,21 +148,6 @@
 
 }
 
-/*tablet chica*/
-
-@media (max-width: 1100px){
-    
-    .nav-list-wrap {
-        display: none;
-    
-    }
-
-    .nav-button-wrap{
-        width: 30%;
-    }
-
-    
-}
 
 /*mobile*/
 
@@ -171,16 +165,19 @@
     
     .nav-list-wrap {
         
-        display: none;
+        width: 100%;
     
     }
 
     .nav-button-wrap{
         width: 30%;
     }
-  
-    .logo-wrap{
-        width: 10%;
-    }
 
+    .nav-search-wrap{
+        display: none;
+    }
+    
+    .logoHeader {
+        width: 60%;
+    }
 }
