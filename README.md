@@ -1,7 +1,11 @@
-### Instalar todas las dependencias
+## Instalar todas las dependencias
 
 - npm install
 
-## Levantar repo con:
+### Levantar repo con:
 
 - npm start
+
+-------------------------
+
+Atte Cookie;
